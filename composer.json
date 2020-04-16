@@ -1,5 +1,5 @@
 {
-    "name": "gentor/mautic-api-laravel",
+    "name": "mauricoder/mautic-api-laravel",
     "description": "Wrapper on the Mautic API for Laravel 4/5.x",
     "keywords": [
         "laravel",
