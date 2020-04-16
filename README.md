@@ -1,3 +1,4 @@
+Updated to support Laravel 6.
 Mautic API
 ==========
 
@@ -6,12 +7,31 @@ Wrapper on the Mautic API for Laravel 4/5.x
 Installation
 ------------
 
-Installation using composer:
+
+Add it to your composer.json
 
 ```
-composer require gentor/mautic-api-laravel
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./nova"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mauricoder/mautic-api-laravel"
+        }
+    ],
+    "require": {
+        "mauricoder/mautic-api-laravel": "dev-master"
+    }
 ```
 
+Then run
+
+
+```
+composer update
+```
 
 Add the service provider in `config/app.php`:
 
